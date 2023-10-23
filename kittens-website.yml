@@ -56,7 +56,7 @@ Resources:
 
             yum update -y
             yum install httpd -y
-            FOLDER="https://raw.githubusercontent.com/kapazan/AWS_Projects/main/static-website-ec2/static-web/"
+            FOLDER="https://raw.githubusercontent.com/14081991/CloudFormation-kittens-carousel-static-website-ec2/main/static-web/"
             cd /var/www/html
             wget $FOLDER/index.html
             wget $FOLDER/cat0.jpg
